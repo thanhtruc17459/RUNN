@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://b5inpgt446vbt"]
+
+[ext_resource type="Script" uid="uid://uqxy7jb4xty" path="res://main.gd" id="1_ig7tw"]
+[ext_resource type="Texture2D" uid="uid://ykt0ipjnls13" path="res://nền sáng g.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://b1jexhejxt5rq" path="res://play.png" id="3_h2yge"]
+[ext_resource type="Texture2D" uid="uid://cm1ex2lfsmoi6" path="res://quit.png" id="4_1bvp3"]
+[ext_resource type="Texture2D" uid="uid://cuoec6nlkvm7w" path="res://cài đặt.png" id="5_lquwl"]
+[ext_resource type="Script" uid="uid://be01ig4dqcdqs" path="res://btn_setting.gd" id="6_7mycd"]
+
+[node name="Main" type="Node2D" unique_id=177504026]
+position = Vector2(0, -4)
+script = ExtResource("1_ig7tw")
+
+[node name="NềnSángG" type="Sprite2D" parent="." unique_id=656942963]
+position = Vector2(579.5, 341)
+scale = Vector2(0.7519531, 0.64453125)
+texture = ExtResource("2_0xm2m")
+
+[node name="btnPLAY" type="TextureButton" parent="." unique_id=478208270]
+offset_left = 327.0
+offset_top = 158.0
+offset_right = 835.46875
+offset_bottom = 465.0
+pivot_offset = Vector2(254, 153)
+texture_normal = ExtResource("3_h2yge")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="btnQUIT" type="TextureButton" parent="." unique_id=1753754512]
+offset_left = 311.0
+offset_top = 388.0
+offset_right = 850.8286
+offset_bottom = 709.0
+texture_normal = ExtResource("4_1bvp3")
+ignore_texture_size = true
+stretch_mode = 0
+
+[node name="btnSETTING" type="TextureButton" parent="." unique_id=1699781814]
+offset_left = 1030.0
+offset_top = 9.0
+offset_right = 1177.0857
+offset_bottom = 101.0
+texture_normal = ExtResource("5_lquwl")
+ignore_texture_size = true
+stretch_mode = 0
+script = ExtResource("6_7mycd")
+
+[connection signal="pressed" from="btnPLAY" to="." method="_on_btn_play_pressed"]
+[connection signal="pressed" from="btnQUIT" to="." method="_on_btn_quit_pressed"]
+[connection signal="pressed" from="btnSETTING" to="." method="_on_btn_setting_pressed"]

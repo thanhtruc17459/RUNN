@@ -1,0 +1,309 @@
+[gd_scene format=3 uid="uid://dpjxlsyh3boxc"]
+
+[ext_resource type="Shader" uid="uid://btoc0mscbvyic" path="res://Shin/Shin.gdshader" id="1_xnm7t"]
+[ext_resource type="Texture2D" uid="uid://bnkn72u3joj2a" path="res://slime chuyển động/hurt/split_1_5.png" id="2_8yyfd"]
+[ext_resource type="Texture2D" uid="uid://dubk6jekqir3v" path="res://slime chuyển động/hurt/split_1_6.png" id="3_vmsal"]
+[ext_resource type="Texture2D" uid="uid://cvp0j1qkn4s1b" path="res://slime chuyển động/hurt/split_3_5.png" id="4_41ni2"]
+[ext_resource type="Texture2D" uid="uid://bx7ka4rntliwy" path="res://slime chuyển động/hurt/split_3_6.png" id="5_xf1qr"]
+[ext_resource type="Texture2D" uid="uid://de2g57iedhokn" path="res://slime chuyển động/idle/split_1_1.png" id="6_troo6"]
+[ext_resource type="Texture2D" uid="uid://dxdguekpapbom" path="res://slime chuyển động/idle/split_1_2.png" id="7_iqf0q"]
+[ext_resource type="Texture2D" uid="uid://dscn6nfejy42h" path="res://slime chuyển động/idle/split_1_3.png" id="8_yxpdt"]
+[ext_resource type="Texture2D" uid="uid://banvo3gt7v5g4" path="res://slime chuyển động/idle/split_3_1.png" id="9_52jww"]
+[ext_resource type="Texture2D" uid="uid://cptyl6e2jbx42" path="res://slime chuyển động/idle/split_3_2.png" id="10_bmnow"]
+[ext_resource type="Texture2D" uid="uid://jcv7ffrk1m0c" path="res://slime chuyển động/idle/split_3_3.png" id="11_71q0t"]
+[ext_resource type="Texture2D" uid="uid://dbj01fela6mxt" path="res://slime chuyển động/run/split_1_6.png" id="12_dub8i"]
+[ext_resource type="Texture2D" uid="uid://7lmanmutioht" path="res://slime chuyển động/run/split_1_7.png" id="13_haet5"]
+[ext_resource type="Texture2D" uid="uid://bo3w3peptkill" path="res://slime chuyển động/run/split_1_8.png" id="14_ki8fx"]
+[ext_resource type="Texture2D" uid="uid://blli63xe2lah2" path="res://slime chuyển động/run/split_1_9.png" id="15_x74xe"]
+[ext_resource type="Texture2D" uid="uid://bkx1v1sb8lrxi" path="res://slime chuyển động/run/split_2_6.png" id="16_8o7qf"]
+[ext_resource type="Texture2D" uid="uid://8txhfl8dmv0y" path="res://slime chuyển động/run/split_2_7.png" id="17_qmj61"]
+[ext_resource type="Texture2D" uid="uid://4kdeu6rn8cq1" path="res://slime chuyển động/run/split_2_8.png" id="18_wkqxq"]
+[ext_resource type="Texture2D" uid="uid://7sp7n67y5sjw" path="res://slime chuyển động/run/split_2_9.png" id="19_a2msa"]
+[ext_resource type="Texture2D" uid="uid://bxfygrfvvuhdb" path="res://slime chuyển động/walk/split_1_0.png" id="20_8d6i7"]
+[ext_resource type="Texture2D" uid="uid://bnsge41reywj5" path="res://slime chuyển động/walk/split_1_1.png" id="21_gaa1e"]
+[ext_resource type="Texture2D" uid="uid://ctv4vamy4yutf" path="res://slime chuyển động/walk/split_1_2.png" id="22_oqp6g"]
+[ext_resource type="Texture2D" uid="uid://c8fj8fwu1mik2" path="res://slime chuyển động/walk/split_1_3.png" id="23_y6gjh"]
+[ext_resource type="Texture2D" uid="uid://blln8qm3fdq4y" path="res://slime chuyển động/walk/split_2_0.png" id="24_i68l6"]
+[ext_resource type="Texture2D" uid="uid://pe63xc1300yv" path="res://slime chuyển động/walk/split_2_1.png" id="25_8ogmx"]
+[ext_resource type="Texture2D" uid="uid://csevukfbely3v" path="res://slime chuyển động/walk/split_2_2.png" id="26_2aa2a"]
+[ext_resource type="Texture2D" uid="uid://byase3qjus7e5" path="res://slime chuyển động/walk/split_2_3.png" id="27_bgjuc"]
+[ext_resource type="Texture2D" uid="uid://7o026hlaet64" path="res://slime chuyển động/băng attack/split_1_1.png" id="28_y4cu2"]
+[ext_resource type="Texture2D" uid="uid://docchw4mtics5" path="res://slime chuyển động/băng attack/split_1_2.png" id="29_qysuk"]
+[ext_resource type="Texture2D" uid="uid://q0j4gvoo0o13" path="res://slime chuyển động/băng attack/split_1_3.png" id="30_mnyy5"]
+[ext_resource type="Texture2D" uid="uid://ces46gydg38w4" path="res://slime chuyển động/băng attack/split_1_4.png" id="31_t8jg3"]
+[ext_resource type="Texture2D" uid="uid://dmv28yvk3dwv5" path="res://slime chuyển động/băng attack/split_1_5.png" id="32_kt7nm"]
+[ext_resource type="Texture2D" uid="uid://bkdoe3g4cy0jr" path="res://slime chuyển động/băng attack/split_1_6.png" id="33_6hll1"]
+[ext_resource type="Texture2D" uid="uid://bgdux3p3ebp2h" path="res://slime chuyển động/băng attack/split_1_7.png" id="34_kptxa"]
+[ext_resource type="Texture2D" uid="uid://c08xfuxodvie4" path="res://slime chuyển động/băng attack/split_1_8.png" id="35_mut4y"]
+[ext_resource type="Texture2D" uid="uid://bp8s4kfmw613i" path="res://slime chuyển động/băng attack/split_1_9.png" id="36_lsbam"]
+[ext_resource type="Texture2D" uid="uid://xmmlms3g250c" path="res://slime chuyển động/băng attack/split_1_10.png" id="37_4n6vx"]
+[ext_resource type="Texture2D" uid="uid://85761iec55hb" path="res://slime chuyển động/dead/split_1_8.png" id="38_gtvta"]
+[ext_resource type="Texture2D" uid="uid://b1itoxdag8j7d" path="res://slime chuyển động/dead/split_1_9.png" id="39_0mr6w"]
+[ext_resource type="Texture2D" uid="uid://bo838w7h641n5" path="res://slime chuyển động/dead/split_1_10.png" id="40_xp680"]
+[ext_resource type="Texture2D" uid="uid://bi1gc8loh20xf" path="res://slime chuyển động/dead/split_1_11.png" id="41_5mf0o"]
+[ext_resource type="Texture2D" uid="uid://c80gi2f7kh0x7" path="res://slime chuyển động/dead/split_2_1.png" id="42_uny01"]
+[ext_resource type="Texture2D" uid="uid://d1jk8fiffjm4" path="res://slime chuyển động/dead/split_2_2.png" id="43_gdsc3"]
+[ext_resource type="Texture2D" uid="uid://b7qns1mqjmd0j" path="res://slime chuyển động/dead/split_2_3.png" id="44_ivk3x"]
+[ext_resource type="Texture2D" uid="uid://mxv78g4ptl22" path="res://slime chuyển động/lửa đen attack/split_1_1.png" id="45_snv5q"]
+[ext_resource type="Texture2D" uid="uid://bt8ytytqpr42w" path="res://slime chuyển động/lửa đen attack/split_1_2.png" id="46_18rcp"]
+[ext_resource type="Texture2D" uid="uid://jar7xrauih0v" path="res://slime chuyển động/lửa đen attack/split_1_3.png" id="47_pdpbu"]
+[ext_resource type="Texture2D" uid="uid://rl5ov1hl3egw" path="res://slime chuyển động/lửa đen attack/split_1_4.png" id="48_4dfdc"]
+[ext_resource type="Texture2D" uid="uid://ds73y607p4wqj" path="res://slime chuyển động/lửa đen attack/split_1_5.png" id="49_oidhp"]
+[ext_resource type="Texture2D" uid="uid://saf4rfxkgnok" path="res://slime chuyển động/lửa đen attack/split_1_6.png" id="50_mrshk"]
+[ext_resource type="Texture2D" uid="uid://ctyc0bq8g4enw" path="res://slime chuyển động/lửa đen attack/split_1_7.png" id="51_yyotu"]
+[ext_resource type="Texture2D" uid="uid://bxe64hg84goq4" path="res://slime chuyển động/lửa đen attack/split_1_8.png" id="52_p4sy1"]
+[ext_resource type="Texture2D" uid="uid://c4e7wgp2c3s26" path="res://slime chuyển động/nguyên bản attack/split_1_1.png" id="53_80t7l"]
+[ext_resource type="Texture2D" uid="uid://rn5p38dqtmg5" path="res://slime chuyển động/nguyên bản attack/split_1_2.png" id="54_cvn7x"]
+[ext_resource type="Texture2D" uid="uid://brkr442o77ghc" path="res://slime chuyển động/nguyên bản attack/split_1_3.png" id="55_fim3p"]
+[ext_resource type="Texture2D" uid="uid://d14ixiiiwji8" path="res://slime chuyển động/nguyên bản attack/split_1_4.png" id="56_bp43x"]
+[ext_resource type="Texture2D" uid="uid://cyx48o6wsomcd" path="res://slime chuyển động/nguyên bản attack/split_1_5.png" id="57_8k6f4"]
+[ext_resource type="Texture2D" uid="uid://dlybiu3rysfyj" path="res://slime chuyển động/nguyên bản attack/split_1_6.png" id="58_gk1do"]
+[ext_resource type="Texture2D" uid="uid://5wxj28xxmb3d" path="res://slime chuyển động/nguyên bản attack/split_1_7.png" id="59_bg21j"]
+[ext_resource type="Texture2D" uid="uid://vnhcqhpthhi4" path="res://slime chuyển động/nguyên bản attack/split_1_8.png" id="60_1f7oc"]
+[ext_resource type="Texture2D" uid="uid://rkp0xfdwy6k" path="res://slime chuyển động/nguyên bản attack/split_1_9.png" id="61_12qh2"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_yrhe0"]
+radius = 20.09975
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_t6kxb"]
+shader = ExtResource("1_xnm7t")
+shader_parameter/color_to_remove = Color(0.74509805, 0.8, 0.77254903, 0)
+shader_parameter/sensitivity = 0.1250000059375
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_xnm7t"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_8yyfd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_vmsal")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_41ni2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xf1qr")
+}],
+"loop": true,
+"name": &"Hurt",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_troo6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_iqf0q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_yxpdt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_52jww")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_bmnow")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_71q0t")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("12_dub8i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_haet5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ki8fx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_x74xe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_8o7qf")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_qmj61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_wkqxq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_a2msa")
+}],
+"loop": true,
+"name": &"Run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("20_8d6i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_gaa1e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_oqp6g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_y6gjh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_i68l6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_8ogmx")
+}, {
+"duration": 1.0,
+"texture": ExtResource("26_2aa2a")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_bgjuc")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("28_y4cu2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_qysuk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_mnyy5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_t8jg3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_kt7nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_6hll1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_kptxa")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_mut4y")
+}, {
+"duration": 1.0,
+"texture": ExtResource("36_lsbam")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_4n6vx")
+}],
+"loop": true,
+"name": &"băng attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("38_gtvta")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_0mr6w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_xp680")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_5mf0o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_uny01")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_gdsc3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_ivk3x")
+}],
+"loop": true,
+"name": &"dead",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("45_snv5q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("46_18rcp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("47_pdpbu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("48_4dfdc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("49_oidhp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("50_mrshk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("51_yyotu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("52_p4sy1")
+}],
+"loop": true,
+"name": &"lửa đen attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("53_80t7l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("54_cvn7x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("55_fim3p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("56_bp43x")
+}, {
+"duration": 1.0,
+"texture": ExtResource("57_8k6f4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("58_gk1do")
+}, {
+"duration": 1.0,
+"texture": ExtResource("59_bg21j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("60_1f7oc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("61_12qh2")
+}],
+"loop": true,
+"name": &"nguyên bản attack",
+"speed": 5.0
+}]
+
+[node name="shin" type="CharacterBody2D" unique_id=1246551122]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=511206567]
+position = Vector2(0, 1)
+shape = SubResource("CircleShape2D_yrhe0")
+
+[node name="Container" type="Node2D" parent="." unique_id=1400806448]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="Container" unique_id=1132784723]
+material = SubResource("ShaderMaterial_t6kxb")
+position = Vector2(1, 1)
+sprite_frames = SubResource("SpriteFrames_xnm7t")
+animation = &"lửa đen attack"
+frame_progress = 0.47974303
