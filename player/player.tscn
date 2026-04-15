@@ -481,8 +481,8 @@ texture = ExtResource("101_hrakr")
 
 [node name="NuiTuyet2" type="Sprite2D" parent="." unique_id=1362735554]
 z_index = -1
-position = Vector2(-1.3749466, -212.00002)
-scale = Vector2(1.565646, 1.0459183)
+position = Vector2(-1.3749466, -207.5)
+scale = Vector2(1.565646, 1.0688776)
 texture = ExtResource("101_wsa1w")
 
 [node name="BackgroundXanhNavvyKhôngĐộng3" type="Sprite2D" parent="." unique_id=1304018589]
@@ -505,8 +505,8 @@ texture = ExtResource("101_hrakr")
 
 [node name="BackgroundXanhNavvyKhôngĐộng5" type="Sprite2D" parent="." unique_id=1033892388]
 z_index = -1
-position = Vector2(7204.2505, 164)
-scale = Vector2(1.9602863, 1.6965604)
+position = Vector2(7204.2505, 161.43489)
+scale = Vector2(1.9602863, 1.7232803)
 texture = ExtResource("101_hrakr")
 
 [node name="BackgroundXanhNavvyKhôngĐộng4" type="Sprite2D" parent="BackgroundXanhNavvyKhôngĐộng5" unique_id=1865318376]
@@ -517,27 +517,27 @@ texture = ExtResource("101_hrakr")
 
 [node name="BackgroundXanhNavvyKhôngĐộng6" type="Sprite2D" parent="." unique_id=610374188]
 z_index = -1
-position = Vector2(5784, 167)
-scale = Vector2(1.7877599, 1.6965604)
+position = Vector2(5784, 163.43488)
+scale = Vector2(1.7877599, 1.7336969)
 texture = ExtResource("101_hrakr")
 
 [node name="BackgroundXanhNavvyKhôngĐộng7" type="Sprite2D" parent="." unique_id=1171667043]
 z_index = -1
-position = Vector2(4766, 160)
-scale = Vector2(1.7877599, 1.6965604)
+position = Vector2(4766, 157.44061)
+scale = Vector2(1.7877599, 1.722602)
 texture = ExtResource("101_hrakr")
 offset = Vector2(-197.17407, 2.28096)
 
 [node name="Nuituyet2" type="Sprite2D" parent="." unique_id=1405034998]
 z_index = -1
-position = Vector2(1148, -217.00002)
-scale = Vector2(1.5707486, 1.0561224)
+position = Vector2(1148, -209.50002)
+scale = Vector2(1.5707486, 1.0586734)
 texture = ExtResource("102_wsa1w")
 
 [node name="Nuituyet2" type="Sprite2D" parent="Nuituyet2" unique_id=808041402]
 z_index = -1
-position = Vector2(1591.7572, 2.603865)
-scale = Vector2(1.1582931, 1.0229468)
+position = Vector2(1591.7572, -0.9445337)
+scale = Vector2(1.1582931, 1.0289159)
 texture = ExtResource("102_wsa1w")
 
 [node name="Nuituyet2" type="Sprite2D" parent="Nuituyet2/Nuituyet2" unique_id=679726309]
@@ -548,14 +548,14 @@ texture = ExtResource("102_wsa1w")
 
 [node name="NuiTuyet" type="Sprite2D" parent="." unique_id=460924603]
 z_index = -1
-position = Vector2(2352.0002, -213.99998)
-scale = Vector2(1.7217689, 1.0714285)
+position = Vector2(2352.0002, -209.49998)
+scale = Vector2(1.7217689, 1.0535715)
 texture = ExtResource("101_wsa1w")
 
 [node name="NuiTuyet" type="Sprite2D" parent="NuiTuyet" unique_id=723009314]
 z_index = -1
-position = Vector2(1774.919, 2.3332872)
-scale = Vector2(1.7217689, 1.0119047)
+position = Vector2(1773.8877, -1.9378781)
+scale = Vector2(1.7245748, 1.0336964)
 texture = ExtResource("101_wsa1w")
 
 [node name="Container" type="Node2D" parent="NuiTuyet" unique_id=953771747]
@@ -563,7 +563,7 @@ position = Vector2(-1366.0371, 203.46666)
 scale = Vector2(0.58079803, 0.93333334)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="NuiTuyet/Container" unique_id=2091560704]
-position = Vector2(10.000002, 3)
+position = Vector2(16.000002, 7)
 scale = Vector2(0.31455144, 0.313327)
 sprite_frames = SubResource("SpriteFrames_oul6g")
 animation = &"jump_fall"
